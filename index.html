@@ -8,20 +8,21 @@
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="css/mainStyle.css">
-
-    <stlye=
+    <style>
         body {
-        background-color: rgb:(182, 196, 191);
+            background-color: rgb(182, 196, 191);
         }
+
         h1 {
-        background-color: coral;
-        }>
-    </stlye>
+            background-color: coral;
+            color: rgb(3, 96, 74);
+        }
+    </style>
 </head>
 
 <body>
     <header>
-        <h1 style="background-color: cornsilk;"> Git Gist</h1>
+        <h1 style="background-color: cornsilk;"> Class 1 Lab</h1>
         <nav>
             <ul>
                 <li><a href="index.html" alt="Link to Home Page">HomePage</a></li>
@@ -33,6 +34,7 @@
     </header>
 
     <main>
+
         <section>
             <p>
                 Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean
@@ -50,6 +52,12 @@
                 faucibus tincidunt. Duis leo. Sed fringilla mauris sit amet nibh. Donec sodales sagittis magna. Sed
                 consequat, leo eget bibendum sodales, augue velit cursus nunc,
             </p>
+            <p style='color:red; background-color: black;'> How old are you?'</p>
+            <p style='color:blueviolet;background-color: yellow;'>What month is your birthday?
+
+            </p>
+            <p style="color: cornflowerblue;background-color:gray">What day is your birthday?</p>
+            <p style="color: rgb(3, 96, 74);åbackground-color:cornsilk">What kind of cake do you like?</p>
             <img src="images/learningPit.jpg" />
             <aside>
                 <ul>
@@ -91,19 +99,19 @@
     var computerType = prompt('What type of computer do you use?');
     console.log(computerType);
 
-    alert('Welcome, ' + firstName + ' ' + lastName + '. I hear your favorite food is ' + favoriteFood + ' and you have a ' + computerType +' computer.');
+    alert('Welcome, ' + firstName + ' ' + lastName + '. I hear your favorite food is ' + favoriteFood + ' and you have a ' + computerType + ' computer.');
 
     var yourAge = prompt('How old are you?');
     console.log('User\'s age: ' + yourAge);
     var birthdayMonth = prompt('What month is your birthday?');
     console.log(birthdayMonth);
-    var birthdayDate = prompt('What day is your birthday?')+1;
+    var birthdayDate = prompt('What day is your birthday?');
     console.log(birthdayDate);
     var favoriteCake = prompt('What kind of cake do you like?');
     console.log(favoriteCake);
-   
 
-    alert('We can\'t wait for your birthday, so we can eat ' + favoriteCake + '! You will be ' + yourAge + ' on ' + birthdayMonth + ' ' + birthdayDate + '.');
+
+    alert('We can\'t wait for your birthday, so we can eat ' + favoriteCake + '! You turned ' + yourAge + ' on ' + birthdayMonth + ' ' + birthdayDate + '.');
 
 
 </script>

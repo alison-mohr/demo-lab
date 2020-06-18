@@ -1,11 +1,11 @@
 h1 { 
-    font-size: 50 px; 
+    /*font-size: 50 px; */
     text-shadow: 2px 2px whitesmoke; 
-    color: rgb(110, 216, 142);
-    /*background-color: darkorange;*/
+   /* color: rgb(110, 216, 142); */
+    background-color: darkorange;
     border-radius: 15px;
     padding: 10px;
-    margin-left: 15px;
+    margin-bottom: 15px;
     float: left;
 }
 
@@ -14,13 +14,15 @@ body {
     margin: 0 auto; 
 }
 main{
-    background-color: whitesmoke;
+    /*background-color: whitesmoke;*/
     clear: both; 
 }
 header{
     height: 250px; 
     background-color: wheat;
 }
+
+
 nav li {
 list-style-type:none;
 font-size: 20px;
